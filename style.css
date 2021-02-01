@@ -1,0 +1,156 @@
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+section{
+    background-image: url(assets/img/atleta-women.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 42%;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    background-color: #EEE7E1;
+    overflow-y: hidden;
+}
+.div1{
+    margin-right: 30%;
+    width: 25%;
+}
+
+.div1 a{
+    text-decoration: none;
+    color:#707070;
+    margin-right: 5%;
+}
+
+ul{
+    list-style: none;
+}
+
+.div2{
+    margin-right: 10%;
+    width: 20%;
+}
+
+.div2 a{
+    text-decoration: none;
+    color: #707070;
+    margin-right: 25%;
+}
+section img{
+    height: 4rem;
+    margin-left: 5%;
+}
+
+.categorias{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match{
+    width: 35vw;
+}
+
+.match h2{
+    font-size: 150px;
+
+font-weight: bold;
+text-transform: uppercase;
+color:#fff;
+height: 55vh;
+height: 54vh;
+
+}
+.match p{
+    position: absolute;
+    bottom: 32rem;
+    margin-left: 11rem;
+    font-size: 30px;
+}
+.lista{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-left: 10rem;
+}
+
+.lista ul{
+    text-align: right;
+}
+
+.lista a{
+    text-decoration: none;
+color: #BAB6B3;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 30px;
+}
+
+.lista a:hover{
+    color: #000;
+}
+
+.video1{
+    background-image: url(assets/img/barriga-de-atleta-women.png);
+    background-repeat: no-repeat;
+    width: 25%;
+    background-size: 100%;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 4rem;
+}
+
+.video1 img{
+    height: 3rem;
+    margin-left: 2.5rem;
+    margin-top: 5px;
+}
+
+.video1 p{
+    text-transform: uppercase;
+    width: 6rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.video2{
+    background-image: url(assets/img/barriga-de-atleta-women.png);
+    background-repeat: no-repeat;
+    width: 25%;
+    background-size: 100%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 5rem;
+}
+
+.video2 img{
+    height: 3rem;
+    margin-left: 2.5rem;
+    margin-top: 5px;
+
+}
